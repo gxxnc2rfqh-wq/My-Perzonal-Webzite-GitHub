@@ -1,10 +1,11 @@
 body {
     text-align: center;
     margin: 0;
-    padding-top: 1000px;
+   
+
 }
 #welcome {
-    position: absolute;
+    z-index: 9;
     bottom: 0;
     background: linear-gradient(lightblue 30%, orange 70%);
     display: table;
@@ -64,4 +65,10 @@ li{list-style: none;
 }
 a {
     text-decoration: none;
+}
+.my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999;
 }
